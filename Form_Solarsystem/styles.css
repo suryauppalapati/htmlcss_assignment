@@ -1,0 +1,112 @@
+#formm {
+    margin: 35px 0px 0px 36px ; 
+    background:rgb(199, 221, 220);
+    box-align: center;
+}
+
+
+input[type=text] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+  }
+
+  input[type=file]{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: none;
+    border: none;
+    background: white;
+  }
+
+  #file
+  {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(199, 221, 220);
+  }
+
+  .file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+
+  #img_label {
+    display: block;
+    position: relative;
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+    background: #15a2da;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    margin-bottom: 25px;
+  }
+
+  div, #desc{
+    height: 50%;
+    width: 83%;
+    padding: 50px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    
+  }
+  
+  
+  button {
+    background-color: #15a2da;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 75px 0 15px;
+    font-weight: bold;
+    position: relative;
+    left: 250px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.8;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    transition: transform .2s ease-out;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #video_style{
+    border:2px solid silver;
+    padding:5px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
+    margin-left: 275px;
+    margin-top: 75px;
+  }
+
+  #video
+  {
+    background-image: url('https://images.unsplash.com/photo-1534528229503-36fe8335507a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80');
+    background: none;
+  }
+
+  
