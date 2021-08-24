@@ -1,0 +1,85 @@
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#products {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #products td, #products th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #products tr:nth-child(even){background-color: #ffffff;}
+  #products tr:nth-child(odd){background-color: #ffffff;}
+  
+  #products tr:hover {background-color: rgb(184, 189, 189);}
+  
+  #products th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #15a2da;
+    color: white;
+  }
+
+ .button {
+    background-color: white;
+    color: #15a2da;
+    padding: 14px 20px;
+    margin: 4px 5px 0 5px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 55px;
+    border: rgba(128, 125, 125, 0.911);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.8;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    transition: transform .2s ease-out;
+  }
+
+
+  .Addbutton{
+    background-color: white;
+    color: #15a2da;
+    padding: 14px 20px;
+    margin: 0px 0px 10px 1000px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.8;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    transition: transform .2s ease-out;
+
+
+  }
+  .page{
+    background-color: #15a2da;
+    color: white;
+    padding: 7px 10px;
+    margin: 5px 2px 0 0px;
+    font-weight: bold;
+    position: relative;
+    
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.8;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    transition: transform .2s ease-out;
+
+  }
+
+  #pagination{
+      margin-top: 25px;
+      margin-left: 450px;
+      margin-bottom: 50px;
+  }
